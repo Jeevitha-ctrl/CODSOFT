@@ -6,20 +6,20 @@ class User_account {
     protected Map<String, Map<String, String>> Userdata = new LinkedHashMap<>();
 
     protected User_account() {
-        Map<String, String> User2136010075 = new LinkedHashMap<>();
-        User2136010075.put("Name", "Sundarapandi T");
-        User2136010075.put("AccountNo", "2136010075");
-        User2136010075.put("Balance", "25000");
-        User2136010075.put("Password", "sundar0075");
+        Map<String, String> User2136010031 = new LinkedHashMap<>();
+        User2136010031.put("Name", "Jeevitha A");
+        User2136010031.put("AccountNo", "2136010031");
+        User2136010031.put("Balance", "25000");
+        User2136010031.put("Password", "jeevi0031");
 
-        Map<String, String> User2136010014 = new LinkedHashMap<>();
-        User2136010014.put("Name", "Sasi");
-        User2136010014.put("AccountNo", "2136010014");
-        User2136010014.put("Balance", "20000");
-        User2136010014.put("Password", "sasi0014");
+        Map<String, String> User2136010032 = new LinkedHashMap<>();
+        User2136010032.put("Name", "Swetha J");
+        User2136010032.put("AccountNo", "2136010032");
+        User2136010032.put("Balance", "20000");
+        User2136010032.put("Password", "swe0032");
 
-        Userdata.put("2136010075", User2136010075);
-        Userdata.put("2136010014", User2136010014);
+        Userdata.put("2136010031", User2136010031);
+        Userdata.put("2136010032", User2136010032);
     }
 
     public boolean verify_account(String accno, String pw) {
@@ -90,7 +90,7 @@ public class ATM_System extends User_account {
                     break;
                 case 4:
                     run = false;
-                    System.out.println("Thank you for using TSP ATM. Goodbye!");
+                    System.out.println("Thank you for using GV ATM. Goodbye!");
                     break;
                 default:
                     System.out.println("Enter correct option");
@@ -99,7 +99,7 @@ public class ATM_System extends User_account {
     }
 
     public static void main(String[] args) {
-        System.out.print("Welcome to TSP ATM\nEnter Your Account No: ");
+        System.out.print("Welcome to GV ATM\nEnter Your Account No: ");
         accno = scanner.next();
         System.out.print("Enter Password: ");
         pw = scanner.next();
@@ -111,3 +111,6 @@ public class ATM_System extends User_account {
         }
     }
 }
+       
+           
+       
