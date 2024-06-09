@@ -10,13 +10,13 @@ class User_account {
         User2136010031.put("Name", "Jeevitha A");
         User2136010031.put("AccountNo", "2136010031");
         User2136010031.put("Balance", "25000");
-        User2136010031.put("Password", "jeevi0031");
+        User2136010031.put("Password", "1981");
 
         Map<String, String> User2136010032 = new LinkedHashMap<>();
         User2136010032.put("Name", "Swetha J");
         User2136010032.put("AccountNo", "2136010032");
         User2136010032.put("Balance", "20000");
-        User2136010032.put("Password", "swe0032");
+        User2136010032.put("Password", "1978");
 
         Userdata.put("2136010031", User2136010031);
         Userdata.put("2136010032", User2136010032);
